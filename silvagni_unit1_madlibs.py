@@ -1,0 +1,12 @@
+print("Let's play Mad Libs!")
+name = input("Enter a name: ")
+adjective1 = input("Enter a adjective: ")
+adjective2 = input("Enter a adjective: ")
+adverb = input("Enter a adverb: ")
+food1 = input("Enter a food: ")
+food2 = input("Enter another food: ")
+noun = input("Enter a noun: ")
+place = input("Enter a place: ")
+verb = input("Enter a verb: ")
+
+print(f"{name} was planning a dream vacation to {place}. \n {name} was looking for the cuisine, including {food1} and {food2}. \n\n{name} will practice the language {adverb} to make it easier to {verb} with people. \n\n {name} has a long list of sights to see, including the {noun} museum and the {adjective2} park.")
