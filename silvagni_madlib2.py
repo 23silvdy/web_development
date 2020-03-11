@@ -1,0 +1,8 @@
+print("Let's play Mad Libs!")
+name = input("Enter a name: ")
+noun = input("Enter a noun: ")
+num = input("Enter a number: ")
+adjective = input("Enter a adjective: ")
+verb = input("Enter a verb: ")
+adverb = input("Enter a adverb: ")
+print(f"{name} likes the number {num}. {name} like to {verb} at the beach. {name} like to sing {adverb}. He likes to eat {adjective}.")
